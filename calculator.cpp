@@ -2,15 +2,17 @@
 using namespace std;
 
 int main()
-{    cout<<"Helloworld"<<endl;
-   
+{   int i;
+     i=1;
+     while (i==1){
+
     cout<<"Which calculation do you want to perform?"<<endl;
     cout<<"1. Addition"<<endl;
     cout<<"2. Subtraction"<<endl;
     cout<<"3. Multiplication"<<endl;
     cout<<"4. Division"<<endl;
     cout<<"5. Exponentation"<<endl;
-    cout<<"6. Trigonometric"<<endl;
+    cout<<"6. Trigonometric (first quadrant)"<<endl;
     int a;
     cin>>a;
     if (a==1){
@@ -363,16 +365,22 @@ int main()
         cout<<"Cot of required angle is\n"<<cottheta<<endl;
 
         }
-
+        else {
+        //nothing
+        }
+     
 
 
     }
 
 
 
+     cout<<"Press 1 to use calculator again"<<endl;
+     cin>>i;
 
 
 
+     }
 
     return 0;
 
